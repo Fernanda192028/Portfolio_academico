@@ -4,8 +4,9 @@ body{
     box-sizing:border-box;
     margin: 0;
     padding: 0;
-    background-color: #2d2f34;
-    font-family: "Poppins";
+    background-color: #080808 ;
+    font-family: "Poppins", sans-serif;
+    color:#fff;
 }
 
 li, a, button{
@@ -21,18 +22,20 @@ li:hover{
     transition: 0.5s;
 }
 
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 15px;
-    background-color: #202022;
+    background-color:  #080808;
 }
 
 .logotipo {
     color:#fff;
     font-size: 35px;
-    font-weight: bold;  
+    font-weight: bold;
+    text-shadow: 0 0 25px #00ffee;
 }
 
 
@@ -46,17 +49,37 @@ header {
 }
 
 .nav-links li a:hover{
-   color: #8CA9D3;
+   color: #00ffee;
 }
 
 button{
     padding: 10px 20px;
-    background-color: #8CA9D3;
+    background-color: #7bf1eadc;
     border: none;
     border-radius: 60px;
     cursor: pointer;
 }
 
 button:hover{
-    background-color: #39619c
+    background-color: #8dd6d1dc;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.foto-perfil{
+    height: 28em;
+    width: 28rem;
+    border-radius: 180rem;
+    box-shadow: 0px 0px 10px #7bf1eadc;
+}
+
+.texto-marcado{
+    color: #7bf1eadc;
+    
 }
