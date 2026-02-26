@@ -9,7 +9,6 @@
 }
 
 body{
-    
     background-color: #080808 ;
     font-family: "Poppins", sans-serif;
     color:#fff;
@@ -71,16 +70,22 @@ button:hover{
 }
 
 
+
+
+
 main{
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap:25px;
     padding-top: 2rem ;
 }
 
+
+.pagina-principal{
+    min-height: 85vh; 
+    width: 100%;
+}
 
 
 .foto-perfil{
@@ -94,11 +99,14 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    padding-top:2rem ;
 }
 
-.links-de-contato a {
+
+
+.links-de-contato a{
     display: inline-block;
+    padding-top: 1rem;
     margin: 10px;
     font-size: 30px;  
     background: transparent;
@@ -111,7 +119,53 @@ main{
 
 .texto-marcado{
     color: #7bf1eadc;
+    padding-top:1rem ;
     
 }
+
+
+
+
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    gap:15rem;
+    min-height: 80vh; 
+    width: 100%;
+}
+
+
+.imagem-sobre-mim  {
+    height: 23em;
+    width: 23rem;
+    border-radius: 180rem;
+    box-shadow: 0px 0px 20px #7bf1eadc;
+  
+}
+
+.sobre-mim p{
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+
+.sobre-mim h2 span {
+    color: #00ffee;
+    text-shadow: 0 0 50px #00ffee;
+}
+
+
+.certificados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
 
 
