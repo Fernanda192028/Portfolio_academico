@@ -72,7 +72,6 @@ button:hover{
 
 
 
-
 main{
     flex-direction: column;
     align-items: center;
@@ -132,7 +131,7 @@ main{
     align-items: center;
     background-color: #101010;
     gap:15rem;
-    min-height: 80vh; 
+    min-height: 100vh; 
     width: 100%;
 }
 
@@ -156,14 +155,52 @@ main{
     text-shadow: 0 0 50px #00ffee;
 }
 
-
+/*Certificados*/
 .certificados{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding-top: 10px;
+    min-height: 100vh; 
+    width: 100%;   
 }
 
+.certificados h2{
+    font-size: 30px;
+    text-shadow: 0 0 25px #00ffee; 
+}
+
+.certificados-links{
+    list-style: none;
+}
+
+.certificados-links li{
+    padding: 20px;
+}
+
+/*Formações*/
+
+.formações {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    gap:4rem;
+    min-height: 100vh; 
+    width: 100%;
+}
+
+
+.titulo-formações{
+    font-size: 30px;
+    text-shadow: 0 0 25px #00ffee; 
+
+}
+
+.formações p{
+    font-size: 22px;
+}
 
 
 
