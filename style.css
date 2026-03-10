@@ -322,6 +322,47 @@ main{
     color:#ccc;
 }
 
+/* SETA DE NAVEGAÇÃO */
+.seta-navegacao{
+    display: inline-block;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    color: #00ffee;
+    text-shadow: 0 0 15px #00ffee;
+    transition: 0.3s;
+    animation: flutuar 2s infinite ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #080808;
+    border-top: 1px solid rgba(0, 255, 238, 0.1);
+    padding: 3rem 0;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.footer-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-conteudo p {
+    color: #8b949e; 
+    font-size: 0.9rem;
+}
+
+.footer-conteudo p span {
+    color: #00ffee; 
+    font-weight: 500;
+}
+
 /* RESPONSIVIDADE */
 
 @media (max-width:1024px){
